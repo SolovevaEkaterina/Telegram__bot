@@ -1,7 +1,7 @@
 import telebot
 from telegram_bot_calendar import DetailedTelegramCalendar, LSTEP
 from telebot import types
-tokken = '5687118516:AAFDJEYMN1kXi5WaOJcjYOk-r9vGr4aozJs'
+tokken = ' '
 bot = telebot.TeleBot(tokken)
 @bot.message_handler(commands=["start"])
 def start(m):
